@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <site.lizihanglove.arch.ArchView
+        android:id="@+id/stepView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:archWidth="20dp"
+        app:backgroundColor="#74828F"
+        app:centerTextColor="#74828F"
+        app:centerTextSize="40sp"
+        app:frontColor="#3a9ad9" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#3a9ad9"
+        android:shadowRadius="10"
+        android:onClick="refresh"
+        android:text="刷新"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

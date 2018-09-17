@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArchView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="frontColor" format="color" />
+        <attr name="centerTextColor" format="color" />
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="archWidth" format="dimension" />
+    </declare-styleable>
+</resources>
